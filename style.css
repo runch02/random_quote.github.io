@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+button, a, input, textarea, * {
+    outline: none;
+}
+
+button, a {
+    font-weight: 700;
+}
+
+header {
+    padding: 0.5rem;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    background: linear-gradient(darkcyan, darkslategray);
+}
+
+.null-container {
+    margin-bottom: 0.5rem;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 270px;
+    height: 440px;
+    /* height: fit-content; */
+    font-size: 0.9rem;
+    background: #313131;
+    color: #eee;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.5);
+}
+
+#author, #quote {
+    margin: 0.5rem;
+}
+
+.container #quote {
+    color: darkcyan;
+    /* text-align: justify; */
+}
+
+.container #author {
+    text-align: center;
+    color: brown;
+}
+
+#random-quote {
+    color: black;
+    font-family: 600;
+    background: linear-gradient(darkcyan, darkslategray);
+    padding: 0.25rem;
+    border: hidden;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    /* position: relative;
+    top: 16.2rem; */
+}
+
+footer a {
+    color: black;
+    font-family: 600;
+    background: linear-gradient(darkcyan, darkslategray);
+    padding: 0.25rem;
+    border: hidden;
+    border-radius: 0.25rem;
+    text-decoration: none;
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+}
